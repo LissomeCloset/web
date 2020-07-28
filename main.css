@@ -1,0 +1,11 @@
+body{
+    background-color: #13a5a5;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+header{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Aguafina Script; 
+    letter-spacing: 4px;
+}
