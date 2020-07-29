@@ -1,23 +1,47 @@
 body{
     background-color: #f3f3cb !important;
-    padding-left: 50px;
-    padding-top: 25px;
 }
 header{
-    font-weight: 700;
-    font-size: 40px;
+    background-image: url(image.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    color: ivory;
+}
+header {
+    text-align: center;
+    font-weight: 700; 
+    font-size: 100px;
     font-family: Aguafina Script; 
     letter-spacing: 4px;
+    line-height: 250px;
+    height: 200px;
 }
 .container{
     margin: 40px;
 }
+.row{
+    margin-top: 40px;
+}
 .img{
     border-radius: 50px;
     padding: 5px;
-    max-width: 60%;    
-    opacity: 0.75;
+    max-width: 100%;
+    height: 380px;    
+    opacity: 0.8;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+#about{
+    line-height: 100px;
+    height: 200px;
+}
+#about h2{
+    font-style: italic;
+    display: inline-block;
+    vertical-align: middle;
+}
+#about p{
+    font-family: Nunito;
+    line-height: 1.5;
+    font-weight: 700;
 }
